@@ -1,0 +1,133 @@
+html,
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* -----header----- */
+header {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+/* -----section menu----- */
+#curry {
+  background-image: url("./curry_de_legume.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 35%;
+  border-radius: 100px;
+}
+
+.saumon {
+  background-color: #f9cfb6;
+  padding: 10%;
+}
+
+.saumon > .contenu {
+  background-color: white;
+  display: flex;
+  width: 50%;
+  margin-left: 10%;
+}
+.saumon > .contenu > .texte {
+  padding: 1%;
+}
+.saumon > .contenu > .texte > img {
+  width: 45%;
+  border-radius: 300px;
+}
+.saumon > .contenu > .texte > p {
+  padding: 2%;
+}
+.saumon > .contenu > .texte > button {
+  background-color: #f94512;
+  border: none;
+  color: white;
+  padding: 2%;
+  border-radius: 10%;
+  text-transform: uppercase;
+}
+.saumon > .contenu > .texte > button:hover {
+  opacity: 2.2;
+  transform: scale(1.05);
+}
+#cuistot {
+  width: 200%;
+}
+
+/* -----modal----- */
+.modal-class {
+  background-color: white;
+  border: #f94512 solid 1px;
+  width: 50%;
+  top: 25%;
+  right: 25%;
+  padding: 1%;
+  height: 50%;
+  position: fixed;
+  /* display: none; */
+}
+
+.modal-class > .close-icon {
+  text-align: right;
+  margin-right: 3%;
+}
+
+/* -----section archives----- */
+.plats {
+  width: 10%;
+}
+.archives {
+  margin-left: 20%;
+  display: flex;
+}
+.archives > .suri {
+  width: 40%;
+  /* border: 1px solid black; */
+  background-image: url("./splash.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 2%;
+  background-size: 100%;
+}
+.archives > .suri > img {
+  border-radius: 200px;
+  margin-top: 9%;
+}
+.archives > .texte-archives {
+  width: 30%;
+  height: 10%;
+  /* border: 1px solid black; */
+  padding: 2%;
+}
+.archives > .texte-archives > h2 {
+  font-size: xx-large;
+}
+.archives > .texte-archives > button {
+  background-color: #f94512;
+  border: none;
+  color: white;
+  padding: 2%;
+  border-radius: 10%;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.archives > .texte-archives > button:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+#suriImg {
+  width: 70%;
+}
+/* ----- footer ----- */
+.footer {
+  background-color: #333333;
+  color: white;
+  padding: 2%;
+  text-align: center;
+}
+.footer > p > a {
+  color: white;
+}
+.footer > p > a:hover {
+  color: darkgrey;
+}
